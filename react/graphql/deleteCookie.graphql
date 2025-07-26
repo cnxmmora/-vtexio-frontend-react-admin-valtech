@@ -1,0 +1,6 @@
+mutation DELETE_COOKIE($id: ID!) {
+  deleteCookieData(id: $id) {
+    id
+    CookieFortune
+  }
+}

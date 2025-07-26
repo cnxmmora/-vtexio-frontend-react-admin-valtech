@@ -1,0 +1,6 @@
+mutation updateCookie($id: ID!, $CookieFortune: String!) {
+  updateCookieData(id: $id, CookieFortune: $CookieFortune) {
+    id
+    CookieFortune
+  }
+}

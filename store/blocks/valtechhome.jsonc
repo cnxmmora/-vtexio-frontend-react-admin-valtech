@@ -1,0 +1,90 @@
+{
+  "store.custom#valtechhome": {
+    "blocks": [
+      "__fold__",
+     "flex-layout.row#party-cookie",
+     "flex-layout.row#menssage-cookie"
+    ],
+     "parent": {
+      "header": "header#empty"
+    }
+  },
+    "flex-layout.row#party-cookie": {
+    "props": {
+      "colGap": 2,
+      "rowGap": 2,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 1,
+      "paddingBottom": 1,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "blockClass": "row-party-cookie"
+    },
+    "children": [
+       "flex-layout.col#party-cookie"
+       
+    ]
+  },
+  "flex-layout.col#party-cookie": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "blockClass": "col-party-cookie"
+    },
+    "children": [
+      "rich-text#title-party-cookie",
+      "valtech-fortune-cookie-component"
+     
+    ]
+  },
+
+
+
+   "flex-layout.row#menssage-cookie": {
+    "props": {
+      "colGap": 2,
+      "rowGap": 2,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 1,
+      "paddingBottom": 1,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "blockClass": "row-menssage-cookie"
+    },
+    "children": [
+       "rich-text#paragrap-party-cookie"
+    ]
+  },
+   
+  "valtech-fortune-cookie-component": {
+    "props": {
+      "blockClass": "content-party-cookie",
+      "content":"**Tendre Suerte** 🍪",
+      "subtitleContent":"##### **Tu Numero**"
+    }
+  },
+  "rich-text#title-party-cookie": {
+    "props": {
+      "text":"# Good Look !",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "title-party-cookie"
+    }
+  },
+   "rich-text#paragrap-party-cookie": {
+    "props": {
+      "text":"Todas las Letras del componente son Editables por Site Editor",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "paragraph-party-cookie"
+    }
+  } 
+}

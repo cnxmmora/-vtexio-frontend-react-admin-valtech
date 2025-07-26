@@ -1,0 +1,7 @@
+{
+  "admin.app.cookie-fortune": {},
+  "admin.app.cookie-fortune.cookie-fortune-management": {
+    "component": "CookieAdminApp",
+    "path": "/admin/app/cookie-aplication"
+  }
+}

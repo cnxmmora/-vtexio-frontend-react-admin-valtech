@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.container {
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+  background: #fff8e1;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.button {
+  width: 100%;
+  background-color: #b22222;
+  color: white;
+  font-size: 1rem;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  animation: bounce 1s infinite;
+  box-shadow: 0 4px #999;
+  font-family: 'Press Start 2P', cursive;
+  margin: 10px;
+}
+
+.button:hover {
+  background: #e68900;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.fortune {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.lucky {
+  color: #5d4037;
+  margin-top: 0.5rem;
+  background-color: #fbeec1;
+  padding: 10px;
+  display: inline-block;
+  border: 2px dashed #a0522d;
+  font-size: 0.9rem;
+}
+
+.container--content-party-cookie {
+  background-color: #fff7d6;
+  border: 5px solid #ffcb05;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: auto;
+  max-width: 100%;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.headingLevel5--content-party-cookie {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+.flex {
+  display: flex;
+}
+
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 420px;
+    
+  }
+  .discloure{
+min-height: 300px;
+  }
+
+  .button {
+    width: auto;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 10px;
+  }
+
+  .fortune {
+    font-size: 1.4rem;
+  }
+
+  .lucky {
+    font-size: 1.1rem;
+  }
+
+  .container--content-party-cookie {
+    max-width: 400px;
+    padding: 2rem;
+  }
+}

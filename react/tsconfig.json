@@ -1,0 +1,25 @@
+{
+  "extends": "@vtex/tsconfig",
+  "compilerOptions": {
+    "noEmitOnError": false,
+    "lib": [
+      "dom",
+      "ES2021.String"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2017"
+  },
+  "include": [
+    "./typings/*.d.ts",
+    "./**/*.tsx",
+    "./**/*.ts",
+    "components/SetFormula/index.js",
+    "components/richSearchTitle/index.jsx",
+    "components/bannerGeneratosAI/index.js",
+    "components/ChatBotAdmin/index.jsx",
+    "components/GridCustom/index.js",
+    "components/ChatBotAdmin/index.js",
+    "ChatVtexDashBoard.tsx"
+  ]
+}

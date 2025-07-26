@@ -1,0 +1,18 @@
+{
+  "definitions": {
+    "FortuneCookie": {
+      "title": "Cookie Buton",
+      "type": "object",
+      "properties": {
+        "content": {
+          "title": "Contendio de Texto Boton",
+          "type": "string"
+        },
+        "subtitleContent":{
+          "title": "Subtitulo de Texto Boton",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

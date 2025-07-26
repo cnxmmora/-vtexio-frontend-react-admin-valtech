@@ -1,0 +1,7 @@
+query GET_COOKIE {   
+  getCookieData 
+  @context(provider: "valtech.services"){
+    id
+    CookieFortune
+  }
+}

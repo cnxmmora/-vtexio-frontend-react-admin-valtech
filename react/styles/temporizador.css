@@ -1,0 +1,497 @@
+.tituloDate{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'gotamblack2';
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+  margin: 0 auto;
+  padding: 1%;
+}
+.tituloDatesegundo{
+    color: #00FFFE;
+    text-transform: uppercase;
+    font-family: 'gotamblack2';
+    text-align: center;
+    font-size: 80%;
+    font-weight: bold;
+  margin: 0 auto;
+  padding: 1%;
+
+}
+.tituloDate:nth-child(2n){
+margin-top: 0;
+display: flex;
+justify-content: space-between
+}
+.subtituloDate::before{
+    content: ' \2501';  
+    margin: 5px;
+    margin-right:12px; 
+    font-weight: bold;   
+}
+.subtituloDate::after{
+    content: ' \2501';    
+    margin: 3px;  
+    font-weight: bold;
+}
+
+.imagenAdmin{
+    position: absolute;
+    z-index: 0;
+    height: auto;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+/* .tituloDate:nth-child(2n)::before{
+    content: ' \2500';
+  color: #00FFFE;
+  font-size: 60%;
+  margin: auto;
+  padding:5px;
+} */
+.puntos{
+    color:white;
+    width: 100%;
+    background:transparent !important;
+}
+
+/* .tituloDate:nth-child(2n)::after{
+    content: ' \2500';
+    color: #00FFFE;
+    font-size: 60%;
+    margin-bottom: 1rem;
+    margin: auto;
+    padding:5px;
+  }
+ */
+  
+.subtituloDate{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+   margin: 0 auto;
+    font-size: 90%;
+}
+.timerContainer{
+background-color: transparent;
+display: flex;
+}
+.timersubContainer2{
+    justify-content: space-evenly;
+    display: flex;   
+    width: 85%;
+    border-radius: 8px;
+    margin: auto;
+    background:linear-gradient(90deg, rgba(214,214,214,1) 0%, rgba(140,151,164,1) 100%); 
+    background-image: url("/arquivos/Banner_timer_mobile.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+.timersubContainer{
+    justify-content: space-evenly;
+    display: flex;   
+    width: 100%;
+    border-radius: 8px;
+    margin: auto;
+    position: relative;
+}
+
+.timersubContainer section{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    z-index: 2;
+   
+}
+
+.barraAzul{
+    border-right: 7px  solid #00FFFE;  
+    width: 5px;
+    height: 80px;
+    margin:auto;
+}
+
+.timernombers{
+    display: flex;
+    justify-content: center;
+    width: 48%;
+    margin:  auto;
+    margin-right: 6%;
+    
+
+}
+.timernombers section{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    font-size: 420%;
+    color: white;
+    justify-content: center;
+    font-family: 'gotamblack2';
+}
+.timernombers section p{
+  
+   padding:10%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+@media screen and (min-width: 1920px){
+    .timernombers section{    
+        font-size: 520%;
+    }
+    .tituloDate{
+        font-size: 400%;
+    }
+    .subtituloDate{
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    .tituloDate{
+        color: white;
+        text-transform: uppercase;
+        font-family: 'gotamblack2';
+        text-align: center;
+        font-size: 200%;
+        font-weight: bold;
+      margin: 0 auto;
+      
+    
+      width: auto;
+    }
+    
+    .tituloDatesegundo{
+        color: #00FFFE;
+        text-transform: uppercase;
+        font-family: 'gotamblack2';
+        text-align: center;
+        font-size: 120%;
+        font-weight: bold;
+      margin: 0 auto;
+    
+    
+    }
+
+    .tituloDate:nth-child(2n){
+    margin-top: 0;
+    width: auto;    
+    top: 0;
+    right: -25%;
+    }
+    
+    .tituloDate:nth-child(2n)::before{
+        content: '';
+    }
+    .puntos{
+        color: #00FFFE;
+    }
+    
+    .tituloDate:nth-child(2n)::after{
+        content: '';
+      }
+      .subtituloDate::before{
+        content: ' \2501';  
+        margin: 5px;
+        margin-right:12px; 
+        font-weight: bold;  
+        color: #00FFFE; 
+    }
+    .subtituloDate::after{
+        content: ' \2501';    
+        margin: 3px;  
+        font-weight: bold;
+        color: #00FFFE;
+    }
+    
+    
+      
+    .subtituloDate{
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+       margin: 0 auto;
+        font-size: 120%;
+        margin-top: 0.5rem;
+    }
+    .timerContainer{
+    background-color: transparent;
+    display: flex;
+    
+    }
+    .timersubContainer2{
+        width: 95%;
+    }
+    .timersubContainer{
+        justify-content: space-evenly;
+        display: flex;   
+        width: 100%;
+        flex-direction: column;
+        border-radius: 8px;
+        margin: auto;
+        margin-bottom: 1rem;
+        background: rgb(214,214,214);       
+        background: linear-gradient(90deg, rgba(214,214,214,1) 0%, rgba(140,151,164,1) 100%); 
+        background-image: url("/arquivos/Banner_timer_mobile.png");  
+    }
+    
+    .timersubContainer section{      
+        width: 90%;
+        margin: auto;
+        position: relative;
+       height: 6rem;
+    }
+    
+    .barraAzul{
+        display: none;
+    }
+    
+    .timernombers{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        margin:  auto;
+        
+    
+    }
+    .timernombers section{
+        display: flex;
+        flex-direction: row;      
+        font-size: 420%;
+        color: white;     
+        font-family: 'gotamblack2';
+    }
+    .timernombers section p{
+        margin: 0;
+        margin-bottom: 0.5rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 900px){
+    .tituloDate{
+        color: white;
+        text-transform: uppercase;
+        font-family: 'gotamblack2';
+        text-align: center;
+        font-size: 300%;
+        font-weight: bold;
+      margin: 0 auto;
+      
+  
+      width: auto;
+    }
+    .tituloDate:nth-child(2n){
+    margin-top: 0;
+    width: auto;    
+    top: 0;
+    right: -35%;
+    }
+    
+    .tituloDate:nth-child(2n)::before{
+        content: '';
+    }
+    .puntos{
+        color: #00FFFE;
+    }
+    
+    .tituloDate:nth-child(2n)::after{
+        content: '';
+      }
+    
+      
+    .subtituloDate{
+        text-transform: uppercase;
+        color: #00FFFE;
+        text-align: center;
+       margin: 0 auto;
+        font-size: 120%;
+        margin-top: 4rem;
+    }
+    .timerContainer{
+    background-color: transparent;
+    display: flex;
+    
+    }
+    .timersubContainer2{
+        width: 95%;
+    }
+    .timersubContainer{
+        justify-content: space-evenly;
+        display: flex;   
+        width: 100%;
+        flex-direction: column;
+        border-radius: 8px;
+        margin: auto;
+        margin-bottom: 1rem;
+        background: rgb(214,214,214);
+        background: linear-gradient(90deg, rgba(214,214,214,1) 0%, rgba(140,151,164,1) 100%);   
+        background-image: url("/arquivos/Banner_timer_mobile.png");
+    }
+    
+    .timersubContainer section{      
+        width: 90%;
+        margin: auto;
+        position: relative;
+       height: 6rem;
+       justify-content: space-between;
+    }
+    
+    .barraAzul{
+        display: none;
+    }
+    
+    .timernombers{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        margin:  auto;
+        
+    
+    }
+    .timernombers section{
+        display: flex;
+        flex-direction: row;      
+        font-size: 420%;
+        color: white;     
+        font-family: 'gotamblack2';
+    }
+    .timernombers section p{
+        margin: 0;
+        margin-bottom: 0.5rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 800px){
+    .tituloDatesegundo{
+        color: #00FFFE;
+        text-transform: uppercase;
+        font-family: 'gotamblack2';
+        text-align: center;
+        font-size: 65%;
+        font-weight: bold;
+      margin: 0 auto;
+  
+    
+    }
+    .tituloDate{
+        color: white;
+        text-transform: uppercase;
+        font-family: 'gotamblack2';
+        text-align: center;
+        font-size: 100%;
+        font-weight: bold;
+      margin: 0 auto;
+      
+    
+      width: auto;
+    }
+    .tituloDate:nth-child(2n){
+    margin-top: 0;
+    width: auto;   
+    top: 0;
+    right: -35%;
+    }
+    
+    .tituloDate:nth-child(2n)::before{
+        content: '';
+    }
+    .puntos{
+        color: #00FFFE;
+    }
+    
+    .tituloDate:nth-child(2n)::after{
+        content: '';
+      }
+    
+      
+    .subtituloDate{
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+       margin: 0 auto;
+        font-size: 65%;
+        margin-top: 0rem;
+    }
+    .subtituloDate::before{
+        content: ' \2501';  
+        margin: 5px; 
+        font-weight: bold;  
+        color: #00FFFE; 
+    }
+    .subtituloDate::after{
+        content: ' \2501';    
+        margin: 5px;  
+        font-weight: bold;
+        color: #00FFFE;
+    }
+    
+    
+    .timerContainer{
+    background-color: transparent;
+    display: flex;
+    
+    }
+    .timersubContainer2{
+        width: 95%;
+    }
+    .timersubContainer{
+        justify-content: space-evenly;
+        display: flex;   
+        width: 100%;
+        flex-direction: column;
+        border-radius: 8px;
+        margin: auto;
+        margin-bottom: 0rem;
+        background: rgb(214,214,214);
+        background: linear-gradient(90deg, rgba(214,214,214,1) 0%, rgba(140,151,164,1) 100%); 
+        background-image: url("/arquivos/Banner_timer_mobile.png");  
+    }
+    
+    .timersubContainer section{      
+        width: 90%;
+        margin: auto;
+        position: relative;
+       height: 3.5rem;
+       justify-content: space-between;
+    }
+    
+    .barraAzul{
+        display: none;
+    }
+    
+    .timernombers{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        margin:  auto;
+        
+    
+    }
+    .timernombers section{
+        display: flex;
+        flex-direction: row;      
+        font-size: 220%;
+        color: white;     
+        font-family: 'gotamblack2';
+    }
+    .timernombers section p{
+        margin: 0;
+        margin-bottom: 0.5rem;
+    
+        padding:5%;
+    }
+    
+}

@@ -1,0 +1,7 @@
+mutation CREATE_COOKIE($CookieFortune: String!) {
+  createCookieData(CookieFortune: $CookieFortune)
+  @context(provider: "valtech.services") {
+    id
+    CookieFortune
+  }
+}

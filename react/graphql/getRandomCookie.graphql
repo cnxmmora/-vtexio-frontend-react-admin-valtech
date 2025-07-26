@@ -1,0 +1,7 @@
+query GET_RANDO_COOKIE {   
+  getRandomCookieData 
+  @context(provider: "valtech.services"){
+    id
+    CookieFortune
+  }
+}
