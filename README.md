@@ -123,6 +123,9 @@ Puedes probar la app funcionando en el siguiente workspace:
 
 ```
 https://mauricio--valtech.myvtex.com/admin/cookie-aplication
+
+https://mauricio--valtech.myvtex.com/valtechhome
+
 ```
 ---
 
