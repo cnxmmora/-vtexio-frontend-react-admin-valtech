@@ -129,8 +129,3 @@ https://mauricio--valtech.myvtex.com/valtechhome
 ```
 ---
 
-## 🤝 Contribución
-
-1. Crea un fork del proyecto
-2. Crea una rama nueva con tu mejora (`git checkout -b feat/node-valtech_services`)
-3. Haz `push` y abre un Pull Request
